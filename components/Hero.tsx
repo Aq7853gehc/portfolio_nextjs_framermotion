@@ -13,14 +13,9 @@ const Hero = () => {
     {
       text: "I'm Aquib,",
     },
+    
     {
-      text: "a fullstack Developer",
-    },
-    {
-      text: "and a",
-    },
-    {
-      text: " Next.js Developer",
+      text: "a Next.js Developer",
       className: "text-blue-400 dark:text-blue-400",
     },
   ];  
@@ -56,7 +51,7 @@ const Hero = () => {
             Hi, I'm Aquib, a Next.js Developer based in Delhi
           </p> */}
 
-            <TypewriterEffectSmooth  words={words}/>
+            <TypewriterEffectSmooth  words={words} className=""/>
 
           <a href="#about">
             <MagicButton 
