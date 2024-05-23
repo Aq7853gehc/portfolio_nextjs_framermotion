@@ -16,7 +16,7 @@ const Hero = () => {
     
     {
       text: "a Next.js Developer",
-      className: "text-purple",
+      className: "dark:text-purple",
     },
   ];  
   return (
